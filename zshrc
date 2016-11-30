@@ -129,6 +129,7 @@ alias update=". ~/.zshrc"
 alias u="update"
 alias c="clear"
 alias myip="ipconfig getifaddr en0"
+alias serve="python -m SimpleHTTPServer $1"
 
 # tmux aliases
 alias tl="tmux list-session" # list all available sessions
